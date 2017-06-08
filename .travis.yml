@@ -3,4 +3,4 @@ language: ruby
 env:
   foo="lalalalala"
 
-script: echo "Hello yes this is Travis"
+script: do --password "$A_PASSWORD"
