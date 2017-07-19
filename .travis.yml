@@ -1,6 +1,7 @@
-language: ruby
+dist: precise
+language: java
 
-env:
-  foo="lalalalala"
+node_js:
+- 0.10.33
 
-script: echo "$A_PASSWORD"
+script: echo "TEST"
