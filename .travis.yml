@@ -1,7 +1,4 @@
 dist: trusty
 language: node_js
 
-node_js:
-- 0.10.33
-
-script: node -v
+script: node script.js
