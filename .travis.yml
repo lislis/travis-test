@@ -1,4 +1,6 @@
 dist: trusty
 language: node_js
 
-script: node script.js
+script:
+  - echo $FOO
+  - node script.js
