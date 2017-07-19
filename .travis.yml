@@ -4,4 +4,4 @@ language: java
 node_js:
 - 0.10.33
 
-script: echo "TEST"
+script: node -v
