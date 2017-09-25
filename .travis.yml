@@ -1,6 +1,2 @@
-dist: trusty
-language: node_js
-
 script:
-  - echo $FOO
-  - node script.js
+  - echo $TRAVIS_COMMIT_MESSAGE
